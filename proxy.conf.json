@@ -1,0 +1,10 @@
+{
+    "/api":{
+        "target":"http://itt.postdata.pl/assets/microsoft.json/api",
+        "secure": false,
+        "pathRewrite":{
+            "^/api":""
+        },
+        "changeOrigin":true
+    }
+}

@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.UserInfo{
+    border: 1px solid;
+    position: absolute;
+    top: 400px;
+    left: 10%;
+    
+}

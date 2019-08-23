@@ -1,0 +1,74 @@
+
+.button{
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+    left: 40px;
+    color: #000;
+    float: center;
+    font-size: 20px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    background: none;
+}
+.posts{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background:#666;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+div.container{
+    height: 50px;
+    width: 100%;
+    background: #898989;
+    border-bottom-right-radius:50px;
+    border-bottom-left-radius: 50px;
+}
+.buttonLogout{
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+    right: 40px;
+    color: #000;
+    float: right;
+    font-size: 20px;
+    background: none;
+    border: none;
+    height: 40px;
+    width: 100px;
+}
+.buttonLogout:hover{
+    background: #666;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    
+}
+a:link{
+    color: #000;
+}
+a:visited{
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+}
+a:active{
+    color: #fff;
+}
+span.text{
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%,40%);
+}
+.Logo{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
